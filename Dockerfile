@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/jboss-decisionserver-6/decisionserver62-openshift
+FROM registry.hub.docker.com/sgeevarg/decisionserver
 
 EXPOSE 8080 8080
 
