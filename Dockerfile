@@ -8,7 +8,6 @@ RUN curl "https://s3-us-west-2.amazonaws.com/license-repo/repository.zip" >> /tm
 
 RUN mkdir /home/jboss/.m2/repository
 
-RUN chown -R jboss:jboss /home/jboss/.m2
-
 RUN unzip /tmp/repository.zip -d /home/jboss/.m2
 
+RUN chown -R jboss:jboss /home/jboss/.m2
